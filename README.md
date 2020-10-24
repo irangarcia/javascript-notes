@@ -12,5 +12,7 @@
 ### Tipos de Dados
 1. [Number](https://github.com/irangarcia/js-branas/blob/master/tiposDeDados/number.md)
 2. [Operadores Numéricos](https://github.com/irangarcia/js-branas/blob/master/tiposDeDados/operadoresNumericos.md)
+3. [Conversão Numérica](tiposDeDados/conversaoNumerica.md)
+4. [IEEE 754](tiposDeDados/ieee754.md)
 
 ### (...)

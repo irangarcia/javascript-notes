@@ -1,4 +1,4 @@
-# Operadores Núméricos
+# Operadores Numéricos
 
 ## Operadores Aritméticos
 ```
