@@ -1,7 +1,7 @@
 # Operadores Núméricos
 
+## Operadores Aritméticos
 ```
-// Operadores Aritméticos
 2 + 2; // Adição
 8 - 3; // Subtração
 4 * 5; // Multiplicação
@@ -9,8 +9,8 @@
 7 % 2; // Resto da divisão entre 7/2 
 ```
 
+## Operadores de Atribuição
 ```
-// Operadores de Atribuição
 let result = 10;
 result += 2; // result = result + 2 
 result -= 5; // result = result - 5
@@ -19,8 +19,8 @@ result /= 2; // result = result / 2
 result %= 6;
 ```
 
+## Operador de Incremento e Decremento 
 ```
-// Operador de Incremento e Decremento 
 let result = 10
 result++; // 10 | Pós Incremento | Vira 11 após 
 result;   // 11
@@ -30,8 +30,8 @@ result;   // 11
 --result  // 10 | Pré Decremento | Vira 10 antes
 ```
 
+## Operadores Binários
 ```
-// Operadores Binários
 4 | 3; // 7 | Or  | Conversão para Binário
 3 | 1; // 3 | And | COnversão para Binário
 5 ^ 2; // 7 | Ou exclusivo | Conversão para Binário
