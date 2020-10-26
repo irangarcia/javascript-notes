@@ -5,18 +5,22 @@
 
 
 ### Introdução
-1. [História da Linguagem](https://github.com/irangarcia/js-branas/blob/master/introducao/historia.md)
-2. [Evolução das Versões](https://github.com/irangarcia/js-branas/blob/master/introducao/evolucao.md)
-3. [Variáveis](https://github.com/irangarcia/js-branas/blob/master/introducao/variaveis.md)
+1. [História da Linguagem](01-introducao/evolucao.md)
+2. [Evolução das Versões](01-introducao/evolucao.md)
+3. [Variáveis](01-introducao/variaveis.md)
 
 ### Tipos de Dados
-1. [Number](https://github.com/irangarcia/js-branas/blob/master/tiposDeDados/number.md)
-2. [Operadores Numéricos](https://github.com/irangarcia/js-branas/blob/master/tiposDeDados/operadoresNumericos.md)
-3. [Conversão Numérica](tiposDeDados/conversaoNumerica.md)
-4. [IEEE 754](tiposDeDados/ieee754.md)
-5. [Math API](tiposDeDados/mathAPI.md)
-6. [Strings](tiposDeDados/strings.md)
-7. [Template Literals](tiposDeDados/templateLiterals.md) 
-8. [String API](tiposDeDados/stringAPI.md)
+1. [Number](02-tiposDeDados/number.md)
+2. [Operadores Numéricos](02-tiposDeDados/operadoresNumericos.md)
+3. [Conversão Numérica](02-tiposDeDados/conversaoNumerica.md)
+4. [IEEE 754](02-tiposDeDados/ieee754.md)
+5. [Math API](02-tiposDeDados/mathAPI.md)
+6. [Strings](02-tiposDeDados/strings.md)
+7. [Template Literals](02-tiposDeDados/templateLiterals.md) 
+8. [String API](02-tiposDeDados/stringAPI.md)
+9. [Boolean](02-tiposDeDados/boolean.md)
+10. [Operadores Booleanos](02-tiposDeDados/operadoresBooleanos.md)
+11. [Symbol](02-tiposDeDados/symbol.md)
+12. [RegExp](02-tiposDeDados/regexp.md)
 
 ### (...)
