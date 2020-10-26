@@ -14,5 +14,9 @@
 2. [Operadores Numéricos](https://github.com/irangarcia/js-branas/blob/master/tiposDeDados/operadoresNumericos.md)
 3. [Conversão Numérica](tiposDeDados/conversaoNumerica.md)
 4. [IEEE 754](tiposDeDados/ieee754.md)
+5. [Math API](tiposDeDados/mathAPI.md)
+6. [Strings](tiposDeDados/strings.md)
+7. [Template Literals](tiposDeDados/templateLiterals.md) 
+8. [String API](tiposDeDados/stringAPI.md)
 
 ### (...)
