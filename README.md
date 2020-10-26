@@ -23,4 +23,9 @@
 11. [Symbol](02-tiposDeDados/symbol.md)
 12. [RegExp](02-tiposDeDados/regexp.md)
 
+### Objetos e Funções
+1. [Objeto](03-objetosEFuncoes/object.md)
+2. [Undefined e Null](03-objetosEFuncoes/undefinedENull.md)
+3. [Comparação de Objetos](03-objetosEFuncoes/comparacaoDeObjetos.md)
+
 ### (...)
