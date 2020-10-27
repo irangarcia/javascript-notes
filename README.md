@@ -27,5 +27,7 @@
 1. [Objeto](03-objetosEFuncoes/object.md)
 2. [Undefined e Null](03-objetosEFuncoes/undefinedENull.md)
 3. [Comparação de Objetos](03-objetosEFuncoes/comparacaoDeObjetos.md)
+4. [Herança](03-objetosEFuncoes/heranca.md)
+5. [JSON](03-objetosEFuncoes/json.md)
 
 ### (...)
