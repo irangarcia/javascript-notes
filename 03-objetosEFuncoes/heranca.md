@@ -9,18 +9,23 @@
   const functionalLanguage = {
     paradigm: "Functional"
   };
+  
   const scheme = {
     name: "Scheme",
     year: 1975,
     __proto__: functionalLanguage
   };
+  
   const javascript = {
     name: "JavaScript",
     year: 1995,
     __proto__: functionalLanguage
   };
+  
   console.log(functionalLanguage);
+  
   console.log(scheme); // Não exibe o paradigma no log, mas possui a propriedade.
+  
   console.log(javascript); // Não exibe o paradigma no log, mas possui a propriedade.
 ``` 
 
@@ -30,16 +35,19 @@
   const functionalLanguage = {
     paradigm: "Functional"
   };
+  
   const scheme = {
     name: "Scheme",
     year: 1975,
     __proto__: functionalLanguage
   };
+  
   const javascript = {
     name: "JavaScript",
     year: 1995,
     __proto__: functionalLanguage
   };
+  
   for (let key in scheme) {
     console.log(key); // name year paradigm ---> ou seja, ele também percorre o protótipo
     console.log(key, scheme.hasOwnProperty(key)); // name true, year true, paradigm false
@@ -53,15 +61,19 @@
   const functionalLanguage = {
     paradigm: "Functional"
   };
+  
   const scheme = {
     name: "Scheme",
     year: 1975,
   };
+  
   const javascript = {
     name: "JavaScript",
     year: 1995,
   };
+  
   ### Object.setPrototypeOf(scheme, functionalLanguage);
+  
   ### Object.setPrototypeOf(javascript, functionalLanguage);
 ```
 
@@ -73,11 +85,15 @@
   };
 
   const scheme = Object.create(functionalLanguage);
+  
   scheme.name = "Scheme";
+  
   scheme.year = 1975;
 
   const javascript = Object.create(functionalLanguage);
+  
   javascript.name = "JavaScript";
+  
   javascript.year = 1995;
 ```
 
@@ -91,8 +107,11 @@
   };
 
   const javascript = Object.create(functionalLanguage);
+  
   javascript.name = "JavaScript";
+  
   javascript.year = 1995;
+  
   javascript.paradigm = "OO";
 
   for (let key in javascript) {

@@ -5,7 +5,9 @@
   
 ```
   Symbol("a"); // Symbol(a)
+  
   Symbol("b"); // Symbol(b) 
+  
   Symbol("c"); // Symbol(c)
 ```
 
@@ -14,7 +16,10 @@
 
 ```
   Symbol.hasInstance; // Symbol(Symbol.hasInstance)
+  
   Symbol.match; // Symbol(Symbol.match)
+  
   Symbol.replace; // Symbol(Symbol.replace)
+  
   Symbol.search; // Symbol(Symbol.search)
 ```

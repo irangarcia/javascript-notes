@@ -8,9 +8,13 @@
 
 ```
   "JavaScript".length(); // 10
+  
   "PHP".indexOf("P"); // 0 (primeira posição)
+  
   "PHP".lastIndexOf(P); // 2 (última posição)
+  
   "cobol".toUpperCase(); // 'COBOL'
+  
   "ALGOL".toLowerCase(); // 'algol'
 ```
 
@@ -20,7 +24,9 @@
 
 ```
   "JavaScript".charAt(1); // 'a'
+  
   "JavaScript".charCodeAt(1); // 97 
+  
   String.fromCharCode(97); // 'a'
 ```
 
@@ -31,7 +37,9 @@
 
 ```
   "JavaScript".includes("Java"); // true
+  
   "Ruby".startsWith("R"); // true
+  
   "Erlang".endsWith("Lang); // true
 ```
 
@@ -39,7 +47,9 @@
 
 ```
   "C++".localeCompare("Ruby"); // -1 (Ruby é maior que C++)
+  
   "Python".localeCompare("Java"); // 1 (Java é menor que Python)
+  
   "JavaScript".localeCompare("JavaScript"); // 0 (São iguais)
 ```
 
@@ -49,8 +59,11 @@
 
 ```
   "C++".match(/\+/g); // '+', '+'
+  
   "Java".search(/a/); // 1 
+  
   "JavaScript".replace("Java", "Ecma"); // 'EcmaScript'
+  
   "JavaScript".replace(/a/g, 4); // 'J4v4Script'
 ```
 
@@ -60,11 +73,18 @@
 
 ```
   "JavaScript".slice(0, 4); // 'Java' (Não inclui a posição final.)
+  
   "JavaScript".slice(4); // 'Script'
+  
   "JavaScript".slice(0, -6); // 'Java' (Sinal negativo vai ao contrário)
+  
   "JavaScript".slice(-6); // 'Script' (Sinal negativo ao contrário)
+  
   "C;Java;JavaScript;Ruby".split(";"); // [ 'C', 'Java', 'JavaScript', 'Ruby' ]
+  
   "JavaScript".substring(0, 4); // 'Java'
+  
   "JavaScript".substring(4, 0); // 'Java'
+  
   "JavaScript".substring(4); // 'Script'
 ```

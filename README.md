@@ -32,5 +32,8 @@
 6. [Função](03-objetosEFuncoes/function.md)
 7. [This](03-objetosEFuncoes/this.md)
 8. [Getter & Setter](03-objetosEFuncoes/getterESetter.md)
+9. [New](03-objetosEFuncoes/new.md)
+10. [Instance Of](03-objetosEFuncoes/instanceOf.md)
+11. [Arrow Function](03-objetosEFuncoes/arrowFunction.md)
 
 ### (...)

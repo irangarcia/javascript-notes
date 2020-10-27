@@ -5,7 +5,9 @@
 
 ```
   {};
+  
   new Object();
+  
   Object.create(null); 
 ```
 
@@ -30,6 +32,7 @@
   const pages = 464;
   const language = "English";
   const available = true;
+  
   const book = {
     title,
     author,
@@ -48,6 +51,7 @@
   const key3 = "pages";
   const key4 = "language";
   const key5 = "available";
+  
   const book = {
     [key1] "Clean Code",
     [key2] "Robert C. Martin",
@@ -76,7 +80,9 @@
   const key3 = "pages";
   const key4 = "language";
   const key5 = "available";
+  
   const book = {};
+  
   books[key1] = "Clean Code";
   books[key2] = "Robert C. Martin";
   books[key3] = 464;
@@ -94,6 +100,7 @@
     language: "English",
     available: true
   };
+
   console.log(book.title);
   console.log(book.pages);
 ```
@@ -109,6 +116,7 @@
     language: "English",
     available: true
   };
+  
   for (let key in book) {
     console.log(key); // Imprime todas as Chaves.
     console.log(book[key]) // Imprime todos os Valores.
@@ -124,10 +132,13 @@
     language: "English",
     available: true
   };
+  
   const book2 = {};
+  
   for (let key in book1) {
     book2[key] = book1[key];
   };
+  
   console.log(book2); // book1 
 ```
 

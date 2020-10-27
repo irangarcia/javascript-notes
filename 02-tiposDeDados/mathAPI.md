@@ -5,12 +5,19 @@
 - **Constantes**:
 ```
   Math.E; // Número de Euler
+  
   Math.LN10; // Logaritmo Natural de 10
+  
   Math.LN2; // Logaritmo Natural de 2
+  
   Math.LOG10E; // Logaritmo de E na base 10
+  
   Math.LOG2E; // Logaritmo de E na base 2
+  
   Math.PI; // Pi
+  
   Math.SQRT1_2; // Raiz quadrada de 1/2 
+  
   Math.SQRT2; // Raiz quadrada de 2
 ```
 - **Operações**:
@@ -22,16 +29,27 @@
   - *trunc*: Elimina a parte decimal do número, tornando-o um inteiro.
 ```
   Math.abs(10); // 10
+  
   Math.abs(-10); // 10
+  
   Math.ceil(1.1); // 2
+  
   Math.ceil(-1.1); // -1
+  
   Math.floor(9.9); // 9
+  
   Math.floor(-9.9); // -10
+  
   Math.round(4.5); // 5
+  
   Math.round(-4.5); // -4 (Mudança de comportamento)
+  
   Math.sign(5); // 1
+  
   Math.sign(-5); // -1
+  
   Math.trunc(2.3); // 2
+  
   Math.trunc(-2.3); // -2
 ```
 
@@ -47,13 +65,21 @@
   - *tan*: Retorna a tangente de um ângulo.
 ```
   Math.cbrt(8); // 2
+  
   Math.cos(Math.PI/3); // 0.5
+  
   Math.exp(1); // 2.71828182
+  
   Math.hypot(3,4); // 5
+  
   Math.log(1); // 0
+  
   Math.pow(2,10); // 1024 
+  
   Math.sin(Math.PI/2); // 1
+  
   Math.sqrt(4); // 2
+  
   Math.tan(Math.PI/4); // 1
 ```
 
@@ -63,6 +89,8 @@
   - *random*: Retorna um número randômico entre 0 e 1, não incluindo o 1. 
 ``` 
   Math.min(1,2,3,4,5,6); // 1 
+  
   Math.max(1,2,3,4,5,6); // 6
+  
   Math.random(); // Número randômico
 ```

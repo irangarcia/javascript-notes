@@ -6,14 +6,18 @@
 - *Test*:
 ```
   let regExp = /john@gmail.com/;
+  
   let result = regExp.test("john@gmail.com);
+  
   console.log(result); // true
 ```
 
 - *Exec*:
 ```
   let regExp = /john@gmail.com/;
+  
   let result = regExp.exec("john@gmail.com);
+  
   console.log(result); // ['john@gmail.com', index: 0, input: 'john@gmail.com']
 ``` 
 
@@ -57,10 +61,11 @@
 
 ```
   let regExp = /^[a-z]+@gmail\.com$/; // Um ou mais 
+  
   let regExp = /^[a-z]{4}@gmail\.com$/; // Obrigatoriamente 4
 ```
 
 ### Grupos de Captura
 
 - **()**: Determina um grupo de captura para realizar extração de valores de uma determinada String. 
-- 
+  

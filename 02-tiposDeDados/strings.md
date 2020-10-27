@@ -16,7 +16,9 @@
 
 ```
   console.log("Usar aspas duplas dentro de ums string é necessário usar barras, aqui vai um exemplo: \"aqui\"");
+  
   console.log('Outro exemplo com aspas simples. Aqui vai: mom\'s house');
+  
   console.log(`O último exemplo é assim: \\n ou \\u000A`);
 ```
 

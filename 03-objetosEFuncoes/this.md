@@ -10,6 +10,7 @@
       return this.x * this.y;
     }
   };
+  
   console.log(rectangle.calculateArea()); // 
 ```
 
@@ -24,5 +25,6 @@ Ou
     y: 2,
     calculateArea
   };
+  
   console.log(rectangle.calculateArea()); 
 ```

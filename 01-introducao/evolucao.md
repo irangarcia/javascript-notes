@@ -4,10 +4,10 @@
 - **ES1: 1997** (110 páginas)
 - **ES2: 1998** (117 páginas)
 - **ES3: 1999** (188 páginas) | 10 anos sendo utilizada 
-  -> Expection Handling (throw, try/catch)
-  -> Regular Expression
-  -> Switch
-  -> Do-while
+  - Expection Handling (throw, try/catch)
+  - Regular Expression
+  - Switch
+  - Do-while
 - Por volta de 2005, com o surgimento do **AJAX**, a linguagem ganhou uma vida nova. 
 - Pouca gente sabia utilizá-la corretamente.
 - Passaram-se cerca de 10 anos sem lançamentos.
@@ -16,39 +16,41 @@
 - O TC39 decidiu rejeitar ambas as versões 3.1 e 4.0 
 - (E-mail ECMAScript Harmony Brendan Eich)
 - **ES5: 2009** (252 páginas) | (Depois de muitas críticas e hate)
-  -> JSON
-  -> Strict mode
-  -> Reserved words as property keys
-  -> Multiline string
-  -> Object API
-  -> Array.prototype
+  - JSON
+  - Strict mode
+  - Reserved words as property keys
+  - Multiline string
+  - Object API
+  - Array.prototype
 - **ES5.1: 2011** (258 páginas)
 - **ES6: 2015** (566 páginas) 
-  -> Class
-  -> Arrow Function
-  -> Proxy
-  -> Reflect
-  -> Map
-  -> Set
-  -> Destructuring
-  -> Rest Parameter
-  -> Default Value
-  -> Template Literal
-  -> Spread Operator
-  -> Generators
-  -> Promises
-  -> Modules
+  - Class
+  - Arrow Function
+  - Proxy
+  - Reflect
+  - Map
+  - Set
+  - Destructuring
+  - Rest Parameter
+  - Default Value
+  - Template Literal
+  - Spread Operator
+  - Generators
+  - Promises
+  - Modules
 - **ES77: 2016** (586 páginas)
-  -> Array.prototype.includes
-  -> Exponentiation operator
+  - Array.prototype.includes
+  - Exponentiation operator
 - **ES8: 2017** (885 páginas)
-  -> Async/Awayt
-  -> Object.values
-  -> Object.entries
-  -> String.prototype.padStart
-  -> String.prototype.padEnd
-  -> Trailing commas in parameters list
-  -> Objects and Arrays
+  - Async/Awayt
+  - Object.values
+  - Object.entries
+  - String.prototype.padStart
+  - String.prototype.padEnd
+  - Trailing commas in parameters list
+  - Objects and Arrays
+
+
 - Como o ES6 ficou grande demais, a partir do ES7, as versões passaram a ser anuais.
 - Cuidar com problemas de compatibilidade ao utilizar novas funcionalidades.
 - Usar Babel para fazer transpile para o Browser.

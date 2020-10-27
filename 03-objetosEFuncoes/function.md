@@ -15,9 +15,10 @@
 - **Function Expression**:
 
 ```
-const sum = function (a, b) {
+  const sum = function (a, b) {
     return a + b;
   }
+
   console.log(sum(2, 2)); // 4 
 ```
 
@@ -69,7 +70,9 @@ const sum = function (a, b) {
   };
 
   console.log(sum(2,2)); // 4
+  
   console.log(sum(5)); // NaN (5 + undefined = NaN)
+  
   console.log(sum(1,2,3)); // 3 (o último é ignorado)
 ```
 
@@ -80,7 +83,9 @@ const sum = function (a, b) {
     return a + b;
   };
 
+  
   console.log(sum(5)); //  6 (assume b como 1)
+  
   console.log(sum()); // 2 (assume ambos como 1)
 ```
 
@@ -90,7 +95,9 @@ const sum = function (a, b) {
   const sum = function () {
     console.log(arguments);
   };
+  
   sum(); // {}
+  
   sum(1,2,3,4,5,6,7,8,9); // {'0': 1, '1': 2 ...}
 ```
 ```
@@ -101,6 +108,7 @@ const sum = function (a, b) {
     }
     return total;
   };
+  
   sum(1,2,3,4,5,6,7,8,9); // 45 (soma de todos)
 ```
 
@@ -115,5 +123,6 @@ const sum = function (a, b) {
     }
     return total;
   };
+  
   sum(1,2,3,4,5,6,7,8,9); // 45 (soma de todos)
 ```
