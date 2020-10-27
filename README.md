@@ -29,5 +29,8 @@
 3. [Comparação de Objetos](03-objetosEFuncoes/comparacaoDeObjetos.md)
 4. [Herança](03-objetosEFuncoes/heranca.md)
 5. [JSON](03-objetosEFuncoes/json.md)
+6. [Função](03-objetosEFuncoes/function.md)
+7. [This](03-objetosEFuncoes/this.md)
+8. [Getter & Setter](03-objetosEFuncoes/getterESetter.md)
 
 ### (...)
