@@ -19,7 +19,7 @@
 - Ao declarar uma variável sem var, let ou const ela é criada no *escopo global*. NUNCA declarar.
 
 - Um identificador válido deve começar com [a-zA-Z_\$] seguido por [a-zA-Z0-9_\$]
-```
+```javascript
 ## Válido
 let name123;
 let Name123;

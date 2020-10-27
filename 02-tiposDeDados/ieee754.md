@@ -5,7 +5,7 @@
   
 - Cuidardo com operações envolvendo números. 
 - Ao realizar operações com números decimais, **podem existir resíduos decorrentes de arredondamento**.
-```
+```javascript
   0.1 + 0.2; // 0.3000000000004
   
   666.7 - 666.6; // 0.10000000002274
@@ -18,7 +18,7 @@
 
 - LowDash (biblioteca para resolver o problema)
 - **Infinity**, que pode ser positivo ou negativo, é retornado quando uma operação ultrapassa os limites do tipo number.
-```
+```javascript
   1/0; // Infinity
   
   Math.pow(10, 1000); // Infinity
@@ -31,7 +31,7 @@
 ```
 
 - **NaN** ou Not a Number, é retornado quando realizamos uma operação numérica *onde não é possível determinar o resultado*.
-``` 
+```javascript
   10 * "JavaScript"; // NaN
   
   0/0; // NaN
@@ -40,5 +40,5 @@
   
   Math.log(-1); // Nan
   
-  parseFloat("JavaScript"); NaN
+  parseFloat("JavaScript"); // NaN
 ```

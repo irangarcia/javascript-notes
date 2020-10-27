@@ -3,7 +3,7 @@
 - A forma mai ssimples de converter um número é por meio da invocação da função construtora **Number**.
 
 
-```
+```javascript
 Number("10"); // 10
 
 Number("9.9"); // 9.9
@@ -20,7 +20,7 @@ Number("JavaScript"); // NaN
 ```
 
 - Conversão através de **operadores numéricos**:
-```
+```javascript
 ~~"10"; // 10
 
 +"10";  // 10 
@@ -39,7 +39,7 @@ Number("JavaScript"); // NaN
 - Nem todos os operadores numéricos realizam a conversão de tipo.
 
 - **toString**:
-```
+```javascript
   (0xA).toString(10); // Conversão para base *decimal*
   
   (0b1010).toString(16); // Conversão para base *hexadecimal*
@@ -50,14 +50,14 @@ Number("JavaScript"); // NaN
 ```
 
 - O método **parseInt** permite converter uma String para um número. Para isso basta indicar o *número e a sua base*, que caso não seja informada será 10. Normalmente é perdido a casa decimal
-```
+```javascript
   parseInt("10") // 10 
   
   parseInt("10", 10) // 10
   
-  parseInt("9.9, 10); // 9
+  parseInt("9.9", 10); // 9
   
-  parseINt("A", 16); // 10
+  parseInt("A", 16); // 10
   
   parseInt("11", 2); // 3 
   
@@ -65,10 +65,10 @@ Number("JavaScript"); // NaN
 ```
 
 - O método **parseFloat** é um pouco mais específico e *converte apenas números no sistema de numeração decimal*.
-```
+```javascript
   parseFloat("10"); // 10
   
-  parseFloat("9.9); // 9
+  parseFloat("9.9"); // 9
   
   parseFloat("0xFF"); // 0 (Pega apenas os números a esquerda)
   

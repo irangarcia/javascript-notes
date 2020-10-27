@@ -2,7 +2,7 @@
 
 - Permite criar objetos por meio das funções construtoras e por meio das classes.
 
-```
+```javascript
   const person1 = {
     name: "Linus Torvalds",
     city: "Helsinki",
@@ -27,7 +27,7 @@
   
   console.log(person2);
   
-  console.log(person2.getAge()); 65
+  console.log(person2.getAge()); // 65
 ```
 
 - Como fazer para criar um objeto a partir da mesma estrutura?
@@ -36,7 +36,7 @@
 
 - A **função fábrica**, que é um tipo de padrão, *retorna um novo objeto após ser invocada diretamente*.
 
-```
+```javascript
   const personPrototype = {
     getAge() {
       return (new Date()).getFullYear() - this.year;
@@ -60,9 +60,9 @@
 
   ## Para visualizar o getAge em persons é preciso olhar para o Protótipo! \/
 
-  console.log(person1.__proto__); // { getAge: [ Function: getAge] }
+  console.log(person1.__proto__); 
   
-  console.log(person2.__proto__); // { getAge: [ Function: getAge] }
+  console.log(person2.__proto__); 
 ```
 
 ### Função Construtora
@@ -71,7 +71,7 @@
 - Por convenção, as funções construtoras começam com letra maiúscula
 
 
-```
+```javascript
   const Person = function(name, city, year) {
     this.name = name;
     this.city = city;
@@ -93,14 +93,14 @@
 - O \_\_proto\_\_ é a cadeia de protótipos do objeto de quem ele herda. 
 - O prototype (é um objeto) *apenas* as funções tem e apenas as funções construtoras utilizam. É esse objeto que vai ser vinculado ao \_\_proto\_\_ e que vai ligar a cadeia de protótipos. E é passado e transmitido para todos os objetos criados pela função construtora
 
-```
+```javascript
   ...
   Person.prototype.getAge = function() {
     return (new Date()).getFullYear() - this.year;
   }
 ```
 
-```
+```javascript
   ...
   const _new = function(fn ...params) {
     const obj = {};

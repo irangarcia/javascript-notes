@@ -1,7 +1,7 @@
 # Operadores Numéricos
 
 ## Operadores Aritméticos
-```
+```javascript
 2 + 2; // Adição
 
 8 - 3; // Subtração
@@ -14,7 +14,7 @@
 ```
 
 ## Operadores de Atribuição
-```
+```javascript
 let result = 10;
 
 result += 2; // result = result + 2 
@@ -29,7 +29,7 @@ result %= 6;
 ```
 
 ## Operador de Incremento e Decremento 
-```
+```javascript
 let result = 10
 
 result++; // 10 | Pós Incremento | Vira 11 após 
@@ -46,7 +46,7 @@ result;   // 11
 ```
 
 ## Operadores Binários
-```
+```javascript
 4 | 3; // 7 | Or  | Conversão para Binário
 
 3 | 1; // 3 | And | COnversão para Binário

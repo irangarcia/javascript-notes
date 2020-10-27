@@ -1,7 +1,7 @@
 # Comparação de Objetos
 
 - A comparação dos objetos é feita por meio da sua _referência_ (mesmo objeto em memória), assim, *ainda que dois objetos tenham exatamente as mesmas propriedades eles serão considerados diferentes*.
-```
+```javascript
   const book1 = {
     title: "Clean Code",
     author: "Robert C. Martin"
@@ -18,7 +18,7 @@
 
 - Uma das formas para comparar objetos é **analisando cada uma das suas propriedades** por meio da comparação das chaves e valores.
 
-```
+```javascript
   const book1 = {
     title: "Clean Code",
     author: "Robert C. Martin"

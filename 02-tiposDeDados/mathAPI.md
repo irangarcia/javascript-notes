@@ -3,7 +3,7 @@
 - Math é um objeto global que contém constantes matemáticas e métdos para a realização de operações envolvendo números. 
   
 - **Constantes**:
-```
+```javascript
   Math.E; // Número de Euler
   
   Math.LN10; // Logaritmo Natural de 10
@@ -27,7 +27,7 @@
   - *round*: Arredonda o número para cima se a parte decimal for de 5 a 9 e para baixo se for de 0 a 4.
   - *sign*: Retorna 1 se o número for positivo e -1 se for negativo.
   - *trunc*: Elimina a parte decimal do número, tornando-o um inteiro.
-```
+```javascript
   Math.abs(10); // 10
   
   Math.abs(-10); // 10
@@ -63,7 +63,7 @@
   - *sin*: Retorna o seno de um ângulo.
   - *sqrt*: Retorna a raiz quadrada de um ângulo.
   - *tan*: Retorna a tangente de um ângulo.
-```
+```javascript
   Math.cbrt(8); // 2
   
   Math.cos(Math.PI/3); // 0.5
@@ -87,7 +87,7 @@
   - *min*: Retorna o menor número passado por parâmetro.
   - *max*: Retorna o maior número passado por parâmetro.
   - *random*: Retorna um número randômico entre 0 e 1, não incluindo o 1. 
-``` 
+```javascript
   Math.min(1,2,3,4,5,6); // 1 
   
   Math.max(1,2,3,4,5,6); // 6

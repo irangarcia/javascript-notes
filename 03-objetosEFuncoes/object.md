@@ -3,7 +3,7 @@
 - Um objeto é uma **coleção dinâmica de propriedades** definidas por *chaves*, que podem ser do tipo String ou Symbol, e *valores* que podem ser de qualquer tipo de dado.
 - É possível criar objetos de várias formas: pela *notação literal*, por meio de uma *função construtora* ou do *método create da Object API.*
 
-```
+```javascript
   {};
   
   new Object();
@@ -13,7 +13,7 @@
 
 - Uma das diversas maneiras de atribuir propriedades a um objeto é _durante sua inicialização_, pela **notação literal**.
 
-```
+```javascript
   const book = {
     title: "Clean Code",
     author: "Robert C. Martin",
@@ -26,7 +26,7 @@
 - **Shorthand Notation**. Simplificação de variáveis para dentro do Objeto. (ES6)
 - Variável com mesmo nome da chave é possível simplificar:
   
-```
+```javascript
   const title = "Clean Code";
   const author = "Robert C. Martin";
   const pages = 464;
@@ -45,7 +45,7 @@
 - **Cuidado!** Dependendo da chave é necessário declará-la diretamente como String.
 
 - Também é possível computar as chaves em *tempo de execução*.
-```
+```javascript
   const key1 = "title";
   const key2 = "author";
   const key3 = "pages";
@@ -63,7 +63,7 @@
 
 - Além da notação literal, é possível atribuir propriedades aos objetos **por meio da sua referência**.
   
-```
+```javascript
   const books = {}; 
   books.title = "Clean Code";
   books.author = "Robert C. Martin";
@@ -74,7 +74,7 @@
 
 - Assim como na notação literal, é possível computar as chaves de um objeto **em tempo de execução por meio da sua referência**.
   
-```
+```javascript
   const key1 = "title";
   const key2 = "author";
   const key3 = "pages";
@@ -92,7 +92,7 @@
 
 - Cada uma das propriedades de um objeto podem ser consultadas por meio da sua referência, **de forma direta**.
   
-```
+```javascript
   const book = {
     title: "Clean Code",
     author: "Robert C. Martin",
@@ -108,7 +108,7 @@
 - É possível consultar cada uma das propriedades de um objeto por meio da **computação das chaves**. For in para percorrer chaves. 
   
 - **Exemplo 1**:
-```
+```javascript
   const book = {
     title: "Clean Code",
     author: "Robert C. Martin",
@@ -124,7 +124,7 @@
 ```
 
 - **Exemplo 2**:
-```
+```javascript
   const book1 = {
     title: "Clean Code",
     author: "Robert C. Martin",

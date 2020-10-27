@@ -4,7 +4,7 @@
 - Todos os tipos de expressões regulares são **object**.
 
 - *Test*:
-```
+```javascript
   let regExp = /john@gmail.com/;
   
   let result = regExp.test("john@gmail.com);
@@ -13,7 +13,7 @@
 ```
 
 - *Exec*:
-```
+```javascript
   let regExp = /john@gmail.com/;
   
   let result = regExp.exec("john@gmail.com);
@@ -59,7 +59,7 @@
 - **Asterisco(*)**: Zero ou Mais.
 - **+**: Um ou mais.
 
-```
+```javascript
   let regExp = /^[a-z]+@gmail\.com$/; // Um ou mais 
   
   let regExp = /^[a-z]{4}@gmail\.com$/; // Obrigatoriamente 4

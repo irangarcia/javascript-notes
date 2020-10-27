@@ -5,7 +5,7 @@
 
 - A propriedade **\_\_proto\_\_** é uma referência para o protótipo do objeto. Ele procura o de cima que é o protótipo referenciado, caso não ache vai para o Object e caso não ache, o \_\_proto\_\_ padrão é *null*.
 
-```
+```javascript
   const functionalLanguage = {
     paradigm: "Functional"
   };
@@ -31,7 +31,7 @@
 
 - O método **hasOwnProperty** pode ser utilizado para determinar se uma propriedade _pertence ao objeto_.
 
-```
+```javascript
   const functionalLanguage = {
     paradigm: "Functional"
   };
@@ -57,7 +57,7 @@
 ## MELHOR FORMA
 - Os métodos **Object.setPrototypeOf** e *Object.getPrototypeOf* permitem a interação com o protótipo do objeto. 
 
-```
+```javascript
   const functionalLanguage = {
     paradigm: "Functional"
   };
@@ -79,7 +79,7 @@
 
 - Com o método **Object.create** é possível criar um objeto passando o seu protótipo por parâmetro.
 
-```
+```javascript
   const functionalLanguage = {
     paradigm: "Functional"
   };
@@ -101,7 +101,7 @@
 
 - Caso a mesma propriedade exista no objeto e no seu protótipo, *a propriedade do próprio objeto é retornado*, fazendo sombra à propriedade do protótipo. (Shadowing)
 
-``` 
+``` javascript
   const functionalLanguage = {
     paradigm: "Functional"
   };

@@ -2,7 +2,7 @@
 
 - As funções do tipo **getter** e **setter** servem para interceptar o acesso as propriedades de determinado um objeto.
 
-```
+```javascript
   const rectangle = {
     x: 10,
     y: 2,
@@ -17,7 +17,7 @@
 - Utilizar chaves diferentes para função setter e a propriedade do objeto.
 - Utilizar underline antes da propriedade para realizar.
   
-```
+```javascript
   const rectangle = {
     set x(x) {
       this._x = x;
@@ -39,7 +39,7 @@
 
 - Por meio da operação **defineProperty** da Object API, também é possível *definir funções do tipo getter e setter*.
 
-```
+```javascript
   const rectangle = {};
   
   Object.defineProperty(rectangle, "x", {

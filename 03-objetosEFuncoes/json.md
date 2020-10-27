@@ -7,7 +7,7 @@
 
 - O método **JSON.stringify** converte um determinado tipo de dado para JSON.
 
-```
+```javascript
   JSON.stringify(10); // '10'
   
   JSON.stringify("JavaScript"); // '"JavaScript"'
@@ -24,7 +24,7 @@
 ```
 
 - O método **JSON.parse** converte um JSON para um determinado tipo de dado. 
-```
+```javascript
   JSON.parse('10'); // 10 
   
   JSON.parse('"JavaScript"'); // 'JavaScript'
@@ -42,7 +42,7 @@
 
 - Forma de comparar objetos com *JSON.stringify*. 
 
-```
+```javascript
   const book1 = {
     name: "Refactoring",
     author: "Martin Fowler"
@@ -58,7 +58,7 @@
 
 - Reconstruir objetos.
 
-```
+```javascript
   const book3 = book2;
   
   console.log(book2 === book3); // true

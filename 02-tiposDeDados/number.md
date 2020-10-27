@@ -7,7 +7,9 @@
   - O sistema de numeração **hexadecimal**, de base 16, deve inciiar com 0x ou 0X, seguido por números de 0 a 9 e letras de A a F.
   - O sistema de numeração **binário**, de base 2, deve iniciar com 0b ou 0B, seguido por números de 0 a 1. É lido da direita para a esquerda.
   - O sistema de numeração **octal**, de base 8, deve iniciar com 0, 0o ou 0O seguido por números de 0 a 7.
-```
+
+
+```javascript
 new Number(10);   // 10
 
 new Number(9.9);  // 9.9
@@ -23,7 +25,7 @@ new Number(0X1A); // 26
 
 
 - Os métodos *toExponential*, *toFixed* e *toPrecision* podem ser utilizados para mudar a forma como um número representado.
-```
+```javascript
   (123.4).toExponential(10) // 1.2340000000+2
 
   (123.4).toPrecision(10) // 123.4000000 (completa até o total de números ser 10)

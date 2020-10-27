@@ -5,7 +5,7 @@
 
 - A função construtora: new Boolean(false) não é convertido para falso.
 - Apenas esses são convertidos para *false*:
-```
+```javascript
   !!0; 
   
   !!NaN;
@@ -20,10 +20,11 @@
 ```
 
 - *True*:
-```
+```javascript
   !!-10;
   
   !!"JavaScript";
+  
   !!{};
   
   

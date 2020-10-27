@@ -6,7 +6,7 @@
 - *toUpperCase*: Retorna uma nova String convertendo as letras para maiúsculas.
 - *toLowerCase*: Retorna uma nova String convertendo as letras para minúsculas.
 
-```
+```javascript
   "JavaScript".length(); // 10
   
   "PHP".indexOf("P"); // 0 (primeira posição)
@@ -22,7 +22,7 @@
 - *charCodeAt*: Retorna o código com base na posição passada por parâmetro.
 - *fromCharCode*: Retorna um caractere com base no código passado por parâmetro.
 
-```
+```javascript
   "JavaScript".charAt(1); // 'a'
   
   "JavaScript".charCodeAt(1); // 97 
@@ -35,7 +35,7 @@
   - *startsWith*: Retorna verdadeiro se a String inicia com a String passada por parâmetro.
   - *endsWith*:  Retorna verdadeiro se a String termina com a String passada por parâmetro.
 
-```
+```javascript
   "JavaScript".includes("Java"); // true
   
   "Ruby".startsWith("R"); // true
@@ -45,7 +45,7 @@
 
 .*localeCompare*: Retorna -1 se a String passada por parâmetro for maior, 0 se for igual e 1 se for menor. 
 
-```
+```javascript
   "C++".localeCompare("Ruby"); // -1 (Ruby é maior que C++)
   
   "Python".localeCompare("Java"); // 1 (Java é menor que Python)
@@ -57,7 +57,7 @@
 - *search*: Retorna a primeira posição encotrada com base na RegExp passada por parâmetro. (**Só aceita valores de RegExp**)
 - *replace*: Retorna uma nova String resultante da substituição da String ou RegExp passada no primeiro parâmetro pelo segundo parâmetro.
 
-```
+```javascript
   "C++".match(/\+/g); // '+', '+'
   
   "Java".search(/a/); // 1 
@@ -71,7 +71,7 @@
 - *split*: Retorna um array contendo o resultado da divisão da String original de acordo com o critério passado por parâmetro.
 - *substring*: Similar ao slice, não aceita valores negativos como parâmetro e permite a inversão dos parâmetros.
 
-```
+```javascript
   "JavaScript".slice(0, 4); // 'Java' (Não inclui a posição final.)
   
   "JavaScript".slice(4); // 'Script'
