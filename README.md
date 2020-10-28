@@ -43,6 +43,7 @@
 ### Coleções
 1. [Array](04-colecoes/array.mdd)
 2. [Array Mutator API](04-colecoes/arrayMutatorAPI.md)
+3. [Array Iteration API](04-colecoes/arrayIterationAPI.md)
 
 
 ### (...)
