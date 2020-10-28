@@ -27,6 +27,8 @@
   - *round*: Arredonda o número para cima se a parte decimal for de 5 a 9 e para baixo se for de 0 a 4.
   - *sign*: Retorna 1 se o número for positivo e -1 se for negativo.
   - *trunc*: Elimina a parte decimal do número, tornando-o um inteiro.
+
+
 ```javascript
   Math.abs(10); // 10
   
@@ -87,6 +89,7 @@
   - *min*: Retorna o menor número passado por parâmetro.
   - *max*: Retorna o maior número passado por parâmetro.
   - *random*: Retorna um número randômico entre 0 e 1, não incluindo o 1. 
+
 ```javascript
   Math.min(1,2,3,4,5,6); // 1 
   

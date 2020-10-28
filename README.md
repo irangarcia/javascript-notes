@@ -35,5 +35,14 @@
 9. [New](03-objetosEFuncoes/new.md)
 10. [Instance Of](03-objetosEFuncoes/instanceOf.md)
 11. [Arrow Function](03-objetosEFuncoes/arrowFunction.md)
+12. [Execution Context](03-objetosEFuncoes/executionContext.md)
+13. [Closures](03-objetosEFuncoes/closures.md)
+14. [Tratamento de Exceções](03-objetosEFuncoes/tratamentoDeExcecoes.md)
+15. [Destructuring](03-objetosEFuncoes/destructuring.md)
+
+### Coleções
+1. [Array](04-colecoes/array.mdd)
+2. [Array Mutator API](04-colecoes/arrayMutatorAPI.md)
+
 
 ### (...)

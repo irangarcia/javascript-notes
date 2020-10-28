@@ -6,7 +6,7 @@
 
 - **Sempre** que é retirado as chaves o return é automático.
   
-```javascript
+```js
   const sum = (a,b) => a + b;
 
   const subtract = (a,b) => a - b; 
@@ -21,7 +21,7 @@
 - As arrow functions **não possuem** suas próprias variáveis *this* e *arguments*.
 - Não utilizar arrow function como método.
 
-```javascript
+```js
   const person = {
     name: "James Gosling",
     city: "Alberta",
@@ -39,7 +39,7 @@
 
 - Evitar arguments com arrow function: 
   
-```javascript
+```js
   const sum = () => {
     let total = 0;
     for (let argument in arguments) {
@@ -52,7 +52,12 @@
 ```
 
 - Se eu quiser retornar um objeto? 
+- Para retornar um objeto de dentro de uma arrow function é **necessário colocá-lo entre parenteses**.
   
-```javascript
+```js
+  const createPerson = (name, city, year) => ({name, city, year});
   
+  const person = createPerson("Alan Key", "Springfield", 1940);
+
+  console.log(person); 
 ```
