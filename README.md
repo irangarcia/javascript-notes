@@ -44,6 +44,8 @@
 1. [Array](04-colecoes/array.md)
 2. [Array Mutator API](04-colecoes/arrayMutatorAPI.md)
 3. [Array Iteration API](04-colecoes/arrayIterationAPI.md)
-
+4. [Array Acessor API](04-colecoes/arrayAcessorAPI.md)
+5. [Map](04-colecoes/map.md)
+6. [Weak Map](04-colecoes/weakMap.md)
 
 ### (...)
