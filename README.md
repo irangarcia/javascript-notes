@@ -47,5 +47,18 @@
 4. [Array Acessor API](04-colecoes/arrayAcessorAPI.md)
 5. [Map](04-colecoes/map.md)
 6. [WeakMap](04-colecoes/weakMap.md)
+7. [Set](04-colecoes/set.md)
+8. [WeakSet](04-colecoes/weakSet.md)
+9. [Iterables e Iterators](04-colecoes/iterablesEIterators.md)
+
+### Classes
+1. [Classes]
+2. [Proxy e Reflect]
+3. [Modules]
+
+### Promises, Generators e Async/Await
+1. [Promises]
+2. [Generators]
+3. [Async Await]
 
 ### (...)
