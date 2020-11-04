@@ -48,13 +48,12 @@
 5. [Map](04-colecoes/map.md)
 6. [WeakMap](04-colecoes/weakMap.md)
 7. [Set](04-colecoes/set.md)
-8. [WeakSet](04-colecoes/weakSet.md)
-9. [Iterables e Iterators](04-colecoes/iterablesEIterators.md)
+8. [Iterables e Iterators](04-colecoes/iterablesEIterators.md)
 
-### Classes
-1. [Classes]
-2. [Proxy e Reflect]
-3. [Modules]
+### Classes e Módulos
+1. [Classes](05-classesEModulos/classes.md)
+2. [Proxy e Reflect](05-classesEModulos/proxyEReflect.md)
+3. [Modules](05-classesEModulos/modules.md)
 
 ### Promises, Generators e Async/Await
 1. [Promises]
