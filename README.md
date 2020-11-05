@@ -55,9 +55,7 @@
 2. [Proxy e Reflect](05-classesEModulos/proxyEReflect.md)
 3. [Modules](05-classesEModulos/modules.md)
 
-### Promises, Generators e Async/Await
-1. [Promises]
-2. [Generators]
-3. [Async Await]
+### Promises e Async/Await
+1. [Promises](06-promisesGeneratorsAsyncAwait/promises.md)
 
 ### (...)
